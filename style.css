@@ -18,23 +18,29 @@ body {
   padding: 8px;
   border-radius: 50px;
   align-items: center;
+  /* justify-content: space-between; */
 }
 .wrapper ul li {
+  display: flex;
   list-style-type: none;
-  line-height: 30px;
-  text-align: center;
-  font-size: 18px;
+  /* line-height: 30px; */
+  /* text-align: center; */
+  justify-content: center;
+  /* justify-items: center; */
+  align-items: center;
+  /* align-content: center; */
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   background-color: #000;
   margin: 10px;
-  border-radius: 50px;
+  border-radius: 0.5vw;
   color: #fff;
   padding: 10px;
 }
 .wrapper ul li.numb {
-  height: 55px;
-  width: 60px;
+  height: 5vw;
+  width: 5vw;
 }
 .wrapper ul li.btn-enabled .btn-disabled {
   line-height: 40px;

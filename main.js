@@ -8,7 +8,7 @@ let initialPage = 1;
 var cont=0;
 let isFirstload = true;
 let afterPages = 0;
-let paginationRange = 5;
+let paginationRange = 7;
 
 if(isFirstload) {
   isFirstload = false;
